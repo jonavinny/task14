@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    }
+.tbtag{
+    margin: 100px;
+    background :url(https://i.ibb.co/WvD7mQbZ/istockphoto-2170792675-2048x2048.jpg);
+    width: 80%;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Row {
+    border-bottom: 1px solid black; 
+    padding: 100px;
+    font-size: 28px;
+    background-color:red;
+    color: rgb(234, 35, 13);
+    background: transparent; 
+}
+    
+.Column{
+    padding: 20px;    
+    text-align: center;
+    border-radius: 40px;
+    float: left;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    border:1px solid black;
+    align-items: center;
+    margin: auto;
+    background-color: rgba(red, green, blue, alpha);
+    box-shadow: inset -5px -5px;
+    border-radius: 25px;
+
+}
+.form h1{
+    color: white;
+    font-size: 45px;
+    border-bottom: 4px solid rgb(229, 222, 220);
+}
+
+.box{
+    padding:5px;
+    margin: 20px;
+    width: 55%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background-color:rgb(255, 153, 0);
+    color: rgb(249, 252, 254);
+}
+ 
+.form p{
+    color: white;
+    font-size: 22px;
+
+}
+
+.btn{
+    padding: 20px;
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+    box-shadow: inset;
+    color: white;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1rem;
+    background: transparent;
+
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(43, 226, 162);
+    color: blueviolet;
+    border-radius: 20%;
+}
+
